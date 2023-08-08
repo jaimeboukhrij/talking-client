@@ -1,0 +1,31 @@
+.header{
+    background-color: #008069;
+    height: 10%;
+    vertical-align: bottom;
+    text-align: left;;
+    padding-left: 8%;
+    display: flex;
+    padding-top: 6%;
+    margin-bottom: 2%;
+
+}
+
+.header h4{
+    color: white;
+    padding-top: 2%;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+.header i{
+    padding-top: 2%;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.main{
+    height: 90%;
+    
+}

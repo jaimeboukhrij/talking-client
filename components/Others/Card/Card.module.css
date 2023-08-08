@@ -1,0 +1,32 @@
+.div{
+    height: 10%;
+    display: flex;
+    padding: 3% 0;
+    border-bottom: 1px solid rgb(198, 196, 196);
+}
+
+.div:hover{
+    cursor: pointer;
+    background-color: rgb(235, 233, 233);
+}
+
+.div img{
+    width: 20%;
+    object-fit: contain;
+    clip-path: circle();
+}
+
+.div article{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.div p:nth-child(1){
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.div p:nth-child(2){
+    margin: 0;
+color: rgb(129, 129, 129);
+}
